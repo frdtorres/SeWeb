@@ -1,0 +1,119 @@
+*{
+
+	border:0;
+	margin:0;
+ }
+
+@font-face{
+
+	font-family: "YanoneKaffeesatz-Regular";
+	src: url("../fonts/YanoneKaffeesatz-Regular.eot");
+	src: url("../fonts/YanoneKaffeesatz-Regular.eot?#iefix")format("embedded-opentype"),url("../fonts/YanoneKaffeesatz-Regular.woff") format("woff"),url("../fonts/YanoneKaffeesatz-Regular.ttf") format("truetype"),url("../fonts/YanoneKaffeesatz-Regular.svg#YanoneKaffeesatz-Regular") format("svg");
+	font-weight: normal;
+	font-style:normal;
+}
+
+body{
+
+	background:white;
+	color: #25766D;
+	font-family: "YanoneKaffeesatz-Regular", Helvetica, verdana;
+	font-size: 16px;
+}
+
+
+#contenidos{
+
+	min-height: 450px;
+	max-height: 450px;
+	overflow: scroll;
+}
+
+
+#estados{
+    min-height: 450px;
+	max-height: 450px;
+	overflow: scroll;
+}
+
+h2{
+	 margin-bottom: 0;
+	 font-size: 1.2em;
+}
+
+#recurso, #enviar , #calcular{
+	  padding: .3em;
+	 font-size: 1.2em;
+}
+
+	 #principal {
+	  float: left;
+	 width: 48%;
+	 }
+	 #secundario {
+	  float: right;
+	 width: 48%;
+	 }
+	 #contenidos, #estados{
+	 	border: 2px solid #CCC;
+	 	background: #FAFAFA;
+	padding: .5em;
+	white-space: pre;
+	}
+	header{
+		background:#4CCFC1;
+		color: #fff;
+	margin:0 auto;
+	max-width:100%;
+	max-height: 60px;
+	text-align:center;
+	}
+	header h1, nav{
+		display:inline-block;
+		max-width:100%;
+	font-size: 24px;
+	vertical-align:middle;
+	text-shadow:5px 5px 10px rgba(0,0,0,1);
+	}
+	input[type="text"]{
+		background: #EEE;
+		border:thin solid #4CCFC1;
+	border-radius: .25em;
+	 color: #25766D;
+	 font-size: 1em;
+	margin: 1px;
+	padding: .25em;
+	}
+	input[type="text"]:focus{
+		background: #C6ECF9;
+		}
+		input[type="file"]{
+			cursor: pointer;
+		opacity: 0;
+	filter: alpha(opacity=0);
+	width: 150px;
+	}
+	input[type="button"]{
+		background: #4CCFC1;
+		border-radius:.25em;
+	color: #fff;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.25em;
+	}
+	input[type="button"]:hover{
+		background: #ccc;
+		border-radius: .25em;
+	color: #fff;
+	cursor: pointer;
+	}
+	section#main{
+		margin:0.25em auto;
+		max-width:960px;
+	padding:0;
+	}
+	td{
+		margin: 4px;
+		text-align: 5px;
+	padding-left: 5px;
+}

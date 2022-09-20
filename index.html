@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="utf-8" />
+      <meta name="description" content="s"/>	
+      <title>SPD-Uni </title>
+      <link rel="stylesheet" href="css/style.css" />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+       <script type="text/javascript" src="js/Chart/Chart.js"></script>
+      <script src="js/calcule.js"></script>
+</head></head>
+<header>
+	<h1><img src="img/codexs.png" width="60" height="60" alt="logo" class="fade"/></h1>
+	<h1>BEST - Basic  Software<h1>
+</header>
+<body> 
+	<div>&nbsp;</div>
+	<section id="main">
+		<form action="#">
+			Nro de Datos: <input type="text" id="recurso" size="10%" />
+			<input type="button" id="enviar" value="INGRESAR" />
+		</form>
+
+		<div id="principal">
+			<h2>Ingresar datos:</h2>
+			<div id="contenidos"></div>
+			<div>&nbsp;</div>
+			<input type="button" id="calcular" value="CALCULAR" />
+		</div>
+
+		<div id="secundario">
+			<h2>Resultados:</h2>
+			<div id="estados">
+			<table width="100%" border="0">
+				<tr bgcolor="#ccc">
+					<td > El total de datos es:</td>
+					<td ><div id="total"></div>	</td>
+				</tr>
+				<tr>
+					<td> El vector de datos ordenados: </td>
+					<td><div id="ordenados"></div></td>
+				</tr>
+				<tr bgcolor="#ccc">
+					<td> El limite inferior es: </td>
+					<td><div id="inferior"></div></td>
+				</tr>
+				<tr>
+					<td> El limite superior es: </td>
+					<td><div id="superior"></div></td>
+				</tr>
+				<tr bgcolor="#ccc">
+					<td> El rango es: </td><td>
+					<div id="rango"></div></td>
+				</tr>
+				<tr>
+					<td> El numero aproximado de intervalos es: </td>
+					<td><div id="intervalos"></div></td>
+				</tr>
+				<tr bgcolor="#ccc">
+					<td> La amplitud intervalica es:  </td>
+					<td><div id="amplitud"></div></td>
+				</tr>
+				<tr>
+					<td> El rango corregido es: </td>
+					<td><div id="r_corregido"></div></td>
+				</tr>
+				<tr bgcolor="#ccc">
+					<td> El limite inferior corregido es: </td>
+					<td><div id="li_corregido"></div></td>
+				</tr>
+				<tr>
+					<td> El limite superior corregido es: </td>
+					<td><div id="ls_corregido"></div></td>
+				</tr>
+				<tr bgcolor="#ccc">
+					<td> El limites de la clase :  </td>
+					<td><div id="l_clase"></div></td>
+				</tr>
+				<tr>
+					<td> Marcas de clase: </td>
+					<td><div id="marcas_cl"></div></td>
+				</tr>
+				<tr bgcolor="#ccc">
+					<td> Frecuencias absolutas simples: </td>
+					<td><div id="absolutas"></div></td>
+				</tr>
+				<tr>
+					<td> Frecuencias relativas simples: </td>
+					<td><div id="relativas"></div></td>
+				</tr>
+				<tr bgcolor="#ccc">
+					<td> La Media aritmetica es: </td>
+					<td><div id="mediari"></div></td>
+				</tr>
+				<tr>
+					<td> La Moda es: </td>
+					<td><div id="lamoda"></div></td>
+				</tr>
+				<tr bgcolor="#ccc"><td> </td><td><div id="lamodaa"></div></td></tr>
+			</table>
+			</div>
+			<br>
+			<br>
+			<div style="width: 100%">
+				<canvas id="canvas" height="450" width="600"></canvas>
+			</div>
+			<div>
+				<table>
+					<tr>
+						<th colspan="2">Tabla Estadística</th>
+					</tr>
+					<tr>
+						<th>Limites de Clase</th>
+						<th>Marcas de clase</th>
+						<th>F. A. S.</th>
+						<th>F. R. S.</th>
+					</tr>
+					<tr>
+						<th>
+							<div id="l_clase"></div>
+						</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+	</section>
+	
+ </body>
+</html>
+
